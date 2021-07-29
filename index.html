@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Blackjack</h1>
+        <h2><span id="result">Let's play</span></h2>
+    </div>
+    <div class="flex-container">
+        <div class="player-cards" id="player-cont">You:<span id="human-score">0</span></div>
+        <div class="bot-cards" id="bot-cont">Dealer:<span id="bot-score">0</span></div>
+    </div>
+    <div class="buttons">
+        <button class="btn-hit" id="hit">Hit</button>
+        <button class="btn-stand" id="stand">Stand</button>
+        <button class="btn-deal" id=deal>Deal</button>
+    </div>
+        <table>
+            <tr>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Draws</th>
+            </tr>
+            <tr>
+                <td><span id="wins">0</span></td>
+                <td><span id="losses">0</span></td>
+                <td><span id="draws">0</span></td>
+            </tr>
+        </table>
+
+        <script src="home.js"></script>
+</body>
+</html>
